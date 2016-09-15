@@ -40,7 +40,6 @@ section:hover{
   background-color: #79C0E7;
 }
 
-
 .date{
   font-size: 15px;
   color: #C2D7E7;
@@ -57,10 +56,10 @@ section:hover{
 }
 .line{
   border-left: 8px solid #B5DCF4;
-  height: 591px;
+  bottom: -30px;
   position: absolute;
-  top: 48px;
-  left: 190px;
+  top: 25px;
+  left: 170px;
 }
 .section:before{
   content: "";
