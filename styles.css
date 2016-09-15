@@ -1,0 +1,129 @@
+body{
+  margin-top: 54px;
+}
+.container{
+  width: 965px;
+  position: relative;
+  margin: 20px;
+  padding-left: 50px;
+
+  color: white;
+}
+
+div .left {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  font: helvetica;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 20px;
+  text-align: left;
+  font-family: arial;
+}
+
+section{
+  display: inline-block;
+  margin-left: 200px;
+  background-color: #4796C4;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: helvetica;
+  font-weight: lighter;
+  transition: background-color .5s ease;
+}
+section:hover{
+  background-color: #79C0E7;
+}
+
+
+.date{
+  font-size: 15px;
+  color: #C2D7E7;
+  position: relative;
+  left: 45px;
+  top: -23px;
+}
+
+.time{
+  position: relative;
+  top: -15px;
+  font-size: 38px;
+  color: #3B81A8;
+}
+.line{
+  border-left: 8px solid #B5DCF4;
+  height: 591px;
+  position: absolute;
+  top: 48px;
+  left: 190px;
+}
+.section:before{
+  content: "";
+  display: block;
+  border: 8px solid transparent;
+  border-right-color: #4796C4;
+  position: absolute;
+  top: 8px;
+  left: 234.5px;
+}
+
+.phone .fa-mobile{
+  position: absolute;
+  top: 51px;
+  left: 189.5px;
+  font-size: 20px;
+  color: white;
+}
+.phone .fa-circle{
+  position: absolute;
+  top: 44px;
+  left: 179px;
+  font-size: 34px;
+  color: #4482A5;
+}
+.phone .fa-circle-o{
+  position: absolute;
+  top: 38px;
+  left: 174px;
+  font-size: 46px;
+  color: #B4DAF2;
+}
+.fa-desktop{
+  position: absolute;
+  font-size: 15px;
+  top: 398px;
+  left: 186px;
+  color: white;
+}
+.computer .fa-circle{
+  position: absolute;
+  top: 388px;
+  left: 178.8px;
+  font-size: 34px;
+  color: #4482A5;
+}
+.computer .fa-circle-o{
+  position: absolute;
+  top: 382px;
+  left: 174px;
+  font-size: 46px;
+  color: #B4DAF2;
+}
+
+.info{
+  padding-left: 40px;
+  padding-top: 17px;
+  padding-right: 40px;
+  padding-bottom: 19px;
+}
+.title{
+  border-bottom: 1px solid #FFFFFF;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: arial;
+}
